@@ -4,6 +4,19 @@
 	<meta charset="UTF-8">
 	<title>Práctica de TESEBADA</title>
 	<link rel="stylesheet" href="bootstrap.css">
+	<script>
+		function muestra(tema, boton){
+			if(document.getElementById(boton).value=="+"){
+				document.getElementById(tema).style="";
+				document.getElementById(boton).value="-";
+			}
+			else
+			{
+				document.getElementById(tema).style.display="none";
+				document.getElementById(boton).value="+";
+			}		
+		}
+	</script>
 </head>
 <body>
 	<div class="container">
@@ -25,12 +38,19 @@
 		<div class="row">
 			<div class="col-xs-12">
 				<h1>Documentación del a práctica TESEBASA</h1>
+				<hr>
 			</div>
 			<div class="col-xs-12">
-				<h2>Paso 1: Montar servidor en la nube</h2>
-				<hr>
+				<h2><input type="submit" onclick="muestra('tema1', 't1')" id="t1" value="+" class="btn btn-primary"> Paso 1: Montar servidor en la nube</h2>
+				<p style="display:none" id="tema1">
 				<img src="paso1.png" alt="" width="500px">
 			</div>
+			<div class="col-xs-12">
+				<h2><input type="submit" onclick="muestra('tema2', 't2')" id="t2" value="+" class="btn btn-primary"> Paso 2: Instalar mysql</h2>
+				<p style="display:none" id="tema2">
+				aquí va el contenido del paso 2
+			</div>
+
 		</div>
 	</div>
 </body>
