@@ -1,0 +1,22 @@
+Herramientas para la gestión de almacenes de datos
+----------------------------------------------------
+- Pentaho 1,2,3
+- Oracle 1 (Revisar Costo) 
+- NetApp 1 (Costos y lenguaje)
+- Axional DWH 1
+	-Axional ERP
+- HOLAP 1 
+- Microinvest Warehouse 1
+	- Gratuita
+	- Enfocada a restaurants y bares.
+	- Access, MySQL, Oracle.
+	- Maneja versión de pago.
+- SQL Data Warehouse 1
+	- SQL
+	- Pago
+	- Pendiente
+- Talend
+	- Versión gratuita de comunidad
+	- Java
+- Netezza
+	- 
