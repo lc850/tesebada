@@ -1,11 +1,38 @@
-Herramientas para la gestión de almacenes de datos
+﻿Herramientas para la gestión de almacenes de datos
 ----------------------------------------------------
-- Pentaho 1,2,3
-- Oracle 1 (Revisar Costo) 
+- Pentaho:
+
+Pentaho se define a si mismo como una plataforma de BI “orientada a la solución” y “centrada en procesos” que incluye todos los principales componentes requeridos para implementar soluciones basados en procesos y ha sido concebido desde el principio para estar basada en procesos. Las soluciones que Pentaho pretende ofrecer se componen fundamentalmente de una infraestructura de herramientas de análisis e informes integrado con un motor de workflow de procesos de negocio. La plataforma será capaz de ejecutar las reglas de negocio necesarias, expresadas en forma de procesos y actividades y de presentar y entregar la información adecuada en el momento adecuado.
+
+Su modelo de ingresos parece estar orientado a los servicios (soporte, formación, consultoría y soporte a ISVs y distribuciones OEM) aunque en alguno de los documentos y páginas que hemos examinado aparece mencionado algunas funcionalidades “Premium” que hacen pensar en ingresos por futuras versiones o funcionalidades de pago.
+
+En su web presenta una organización por productos: Reporting, Analysis, Dahsboards y Data Mining, acompañado por dos introducciones: a la plataforma y a los productos. En dichas introducciones se hace mención específica al workflow como una de las capacidades BI claves de la plataforma.
+
+----Productos----
+
+1.-Pentaho Analysis Services: cuyo nombre código Modrian es un servidor OLAP (procesamiento analítico en línea) escrito en Java. Es compatible con el MDX (expresiones multidimensionales) y el lenguaje de consulta XML para el Análisis y especificaciones de la interfaz olap4j.
+
+2.-Pentaho Reporting: Consiste en un motor de presentación, capaz de generar informes programáticos sobre la base de un archivo de definición XML. Sobre esta solución se han desarrollado muchas herramientas, por ejemplo informes, diseñadores de interfaz gráfica de usuario, y asistentes tipo wizard. Un uso notable de esta herramienta es el Generador de informes para OpenOffice.org
+
+3.-Pentaho Data Mining: Es una envoltura alrededor del proyecto Weka. Es una suite de software que usa estrategias de aprendizaje de máquina, aprendizaje automático y minería de datos. Cuenta con series de clasificación, de regresión, de reglas de asociación, y de algoritmos de clustering, para así apoyar las tareas de análisis predictivo.
+
+4.-Pentaho Dashboard: Es una plataforma integrada para proporcionar información sobre sus datos, donde se pueden ver informes, gráficos interactivos y los cubos creados con las herramientas Pentaho Report Designer.
+
+5.-Pentaho para Apache Hadoop: Es un conector de bajo nivel para facilitar el acceso a MUY grandes volúmenes manejados en el proyecto Apache Hadoop, la Suite de Pentaho BI para Hadoop permite abordar los mayores desafíos que experimentan los usuarios de Hadoop -, sobre su empinada curva de aprendizaje técnico, la falta de personal técnico cualificado y la falta de disponibilidad de las aplicaciones de desarrollo y despliegue para llevar a cabo la integración de datos e inteligencia de negocios con Hadoop.
+
+- Oracle 1 (Revisar Costo)
+	-
+	-
+	-
+	-
 - NetApp 1 (Costos y lenguaje)
 - Axional DWH 1
 	-Axional ERP
-- HOLAP 1 
+- HOLAP 1
+	- 
+	-
+	-
+	-
 - Microinvest Warehouse 1
 	- Gratuita
 	- Enfocada a restaurants y bares.
